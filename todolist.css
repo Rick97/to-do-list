@@ -1,0 +1,100 @@
+:root{
+    --dark: rgb(75, 75, 75);
+    --darker: rgb(60, 60, 60);
+    --darkest: rgb(45,45,45);
+    --light: rgb(170, 130, 130);
+    --lighter: rgb(190,190,190);
+    --lightest: rgb(210,210,210);
+    --blue:rgb(45, 55, 190);
+}
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    background: var(--dark);
+    color: var(--lightest);
+}
+
+header{
+    box-sizing: border-box;
+    padding: 2em 1em;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h2{
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: var(--lighter);
+}
+
+#new-task-form{
+    display: flex;
+}
+
+input, button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+#new-task{
+    background-color: var(--darker);
+    padding: 1em;
+    border-radius: 1em;
+    margin-right: 1em;
+    color: var(--lightest);
+    width: 85%;
+}
+
+#submit{
+    font-weight: bolder;
+    font-size: 1.1em;
+    color: var(--blue);
+    background-color: var(--lighter);
+    border-radius: 1em;
+    padding: 1em;
+}
+
+main{
+    padding: 1em;
+    box-sizing: border-box;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.task{
+    background-color: var(--light);
+    border-radius: 1em;
+}
+
+.text{
+    box-sizing: border-box;
+    margin: 0.8em;
+    color: var(--lightest);
+    font-size: 1.2em;
+}
+
+.delete{
+    color: crimson;
+    background-color: var(--darkest);
+    margin: 1em;
+    padding: 0 1em;
+    height: 2.5em;
+    border-radius: 1em;
+}
+
+.edit{
+    color: var(--lighter);
+    background-color: var(--darkest);
+    margin: 1em;
+    padding: 0 1em;
+    height: 2.5em;
+    border-radius: 1em;
+}
