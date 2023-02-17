@@ -2,7 +2,7 @@
     --dark: rgb(75, 75, 75);
     --darker: rgb(60, 60, 60);
     --darkest: rgb(45,45,45);
-    --light: rgb(170, 130, 130);
+    --light: rgb(210, 190, 190);
     --lighter: rgb(190,190,190);
     --lightest: rgb(210,210,210);
     --blue:rgb(45, 55, 190);
@@ -72,12 +72,14 @@ main{
 .task{
     background-color: var(--light);
     border-radius: 1em;
+    border: 2px solid black;
+    margin-bottom: 1em;
 }
 
 .text{
     box-sizing: border-box;
     margin: 0.8em;
-    color: var(--lightest);
+    color: black;
     font-size: 1.2em;
 }
 
